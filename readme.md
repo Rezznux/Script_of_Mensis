@@ -1,3 +1,6 @@
+
+![som_banner](https://github.com/user-attachments/assets/a8ff84b6-ec9a-4b2f-b96f-562805b76272)
+
 ## Overview
 
 AI generated project using anti-bot tools to analyse malicous redirects.
@@ -20,12 +23,15 @@ This project:
 3. Replace API keys in scripts/config.py
 
 ## Usage
+1. Scan a single URL:
+	
+   ```sh
+   python scripts/url_scanner.py https://suspicious-site.com
 
-Scan a single URL:
-	python scripts/url_scanner.py https://suspicious-site.com
+2. Bulk scan URLs from file:
 
-Bulk scan URLs from file:
-	python scripts/url_scanner.py
+   ```sh
+   python scripts/url_scanner.py
 
 
 
